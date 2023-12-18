@@ -87,6 +87,7 @@ a{
 #skills{
     background-color:var(--color-primary-variant);
     color: var(--color-text);
+    width: 100%;
 }
 /* skills bar 시작*/
 .skills_bar{
@@ -117,6 +118,7 @@ a{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 6fr 4fr;
     margin: 2rem 3rem;
+    overflow: hidden;
     grid-template-areas: 
     "a b"
     "a c"
@@ -137,5 +139,21 @@ a{
     grid-area: c;
     padding: 1rem;
     background-color:var(--color-primary);
-    filter:brightness(120%);
+    filter: brightness(120%);
+}
+
+/* text 처리 */
+.skills_title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.bar_text_02{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 1rem;
+    
 }

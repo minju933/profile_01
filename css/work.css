@@ -3,6 +3,14 @@
     background-color: var(--color-primary);
     color: var(--color-text);
 }
+button{
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+}
+button:focus {
+    outline: 1px solid transparent;
+}
 
     .category {
         display: flex;
@@ -12,7 +20,7 @@
     }
     .category_button {
         position: relative;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         font-size: 1.1rem;
         padding: 0.5rem 3cqh;
         border-radius: 4px;
